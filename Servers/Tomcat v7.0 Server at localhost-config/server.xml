@@ -128,7 +128,7 @@
              Note: The pattern used is equivalent to using pattern="common" -->
         <Valve className="org.apache.catalina.valves.AccessLogValve" directory="logs" pattern="%h %l %u %t &quot;%r&quot; %s %b" prefix="localhost_access_log." suffix=".txt"/>
 
-      <Context docBase="jsp" path="/jsp" reloadable="true" source="org.eclipse.jst.j2ee.server:jsp"/></Host>
+      <Context docBase="jspMvc" path="/jspMvc" reloadable="true" source="org.eclipse.jst.j2ee.server:jspMvc"/></Host>
       
        <Host appBase="homeapps" autoDeploy="true" name="www.myserver.com" unpackWARs="true"/>
        <Host appBase="mailapps" autoDeploy="true" name="mail.myserver.com" unpackWARs="true"/>
