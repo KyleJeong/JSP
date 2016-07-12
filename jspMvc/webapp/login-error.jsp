@@ -5,19 +5,10 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=EUC-KR">
 <title>Insert title here</title>
-<style type="text/css">
-	body{
-		text-align : center;
-		margin: 0 auto;
-	}	
-</style>
-
 </head>
 <body>
-	<form action="ControllerServlet" method="post">
-		Name : <input type="text" name="name"><br>
-		PWd : <input type="text" name="pwd"><br>
-		<input type="submit" value="login">
-	</form>
+<p>Sorry error</p>
+
+<%@include file="index.jsp" %>
 </body>
 </html>
